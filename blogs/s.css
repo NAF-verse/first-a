@@ -1,0 +1,124 @@
+
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: bisque;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+.intro img{
+    width: 100%;
+    height: 800px;
+    border-radius: 15px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+.intro-des p{
+    font-size: 20px;
+    color:#474747;
+    margin: 20px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f-part,.first-part{
+    
+    margin:150px 100px;
+}
+.first-part, .sec-part{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.first-part img, .sec-part img{
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+ h4{
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747;
+    margin:0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ans p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #757575;
+
+}
+.ans button{
+    background-color: white;
+    padding:5px 10px;
+    border-radius: 15px;
+    
+}
+.ans button a{
+    color:#757575;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-color: #757575;
+}
+.ans button:hover{
+    background-color: coral;
+}
+.sec-part{
+    margin:100px;
+}
+.time p, .tips p,.end p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #757575;
+}
+.time-tips{
+     display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.time,.tips,.end{
+    margin:0 100px;
+}
+.end h4{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.last{
+    background-color: black;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+.contact-icon{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.contact-icon a{
+    padding: 8px;
+    color:white;
+}
+.contact-icon a:hover{
+    background-color: coral;
+    border-radius: 50%;
+}
+.copyright,.copy-des{
+    color:#757575;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 100px;
+}
+hr{
+    color:#757575
+}
